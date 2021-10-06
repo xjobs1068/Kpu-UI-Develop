@@ -142,10 +142,6 @@
   height: 100%;
 }
 
-.post .post-thumnail img {
-  height: 100%;
-}
-
 .post .info {
   position: absolute;
   left: 0;
@@ -185,6 +181,15 @@
   }
   .site-title {
     width: 48px !important;
+  }
+  .post-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 /*# sourceMappingURL=style.css.map */
